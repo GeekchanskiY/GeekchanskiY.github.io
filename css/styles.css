@@ -7,7 +7,38 @@ body{
     background-color: black;
 }
 
+footer{
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    bottom: 0;
+    z-index: 5;
+    background-color: transparent;
+}
+footer img {
+    height: 5vh;
+    padding: 0;
+    background-color: pink;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+footer img:hover{
+    background-color: aqua;
+}
+
 h1{
     font-family: 'Poppins';
     color: #fff;
+}
+
+.screen{
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    transition: .5s;
+}
+
+.hidden-screen{
+    margin-left: -100%;
 }
