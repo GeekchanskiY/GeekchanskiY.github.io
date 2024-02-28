@@ -1,5 +1,5 @@
 :root {
-    --color_bg: #0b1b3f;
+    --color_bg: #111111;
     --color_secondary: #495E57;
     --color_accent: #F4CE14;
     --color_primary: #F5F7F8;
@@ -18,63 +18,14 @@ li{
     color: var(--color_secondary);
 }
 
-header{
-    position: fixed;
-    width: 100%;
-    height: 5vh;
-    top: 0;
-    z-index: 5;
-    background-color: transparent;
-}
-
-footer{
-    position: fixed;
-    width: 100%;
-    height: 5vh;
-    bottom: 0;
-    z-index: 5;
-    background-color: transparent;
-}
-
-
-footer img {
-    position: relative;
-    height: 5vh;
-    padding: 0;
-    background-color: var(--color_secondary);
-    border-radius: 30px;
-    transition: .3s;
-}
-
-footer img:hover{
-    background-color: var(--color_accent);
-}
-
-.footer_content{
-    position: absolute;
-    float: left;
-    width: 100%;
-    text-align: center;
-}
 
 h1{
     font-family: 'Poppins';
-    color: #000;
+    color: #900C3F;
+    
 }
 
-.screen{
-    position: absolute;
-    top: 0;
+.center_title{
     width: 100%;
-    height: 100vh;
-    transition: .5s;
-    z-index: 2;
-}
-
-.hidden-screen{
-    margin-left: -100%;
-}
-
-#go_back{
     text-align: center;
 }
